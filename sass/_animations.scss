@@ -1,0 +1,20 @@
+@keyframes come-from-left {
+	from {
+		transformx: (-120%);
+	}
+
+	to {
+		transformx: (0%);
+	}
+}
+
+@keyframes shake {
+	from {
+		color: red;
+		transform: rotate(15deg);
+	}
+	to {
+		color: blue;
+		transform: rotate(5deg);
+	}
+}

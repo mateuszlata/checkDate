@@ -1,0 +1,16 @@
+@keyframes come-from-left {
+  from {
+    transformx: -120%;
+  }
+  to {
+    transformx: 0%;
+  }
+}
+@keyframes shake {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}/*# sourceMappingURL=animations.css.map */
